@@ -15,4 +15,10 @@
 //   console.log(sum([1, 5.2, 4, 0, -1]));  
 
 
- 
+
+
+// function printArray(array){
+//   return array.join();
+// }
+
+// console.log(printArray( [2, 4, 5, 2]));
