@@ -22,3 +22,14 @@
 // }
 
 // console.log(printArray( [2, 4, 5, 2]));
+
+
+// let arr = ['5', '0', 9, 3, 2, 1, '9', 6, 7]
+
+// function sumMix(arr, sum = 0) {
+//     arr.forEach((v) => sum += Number(v));
+//     return sum;
+// }
+// console.log(sumMix(arr));
+
+
