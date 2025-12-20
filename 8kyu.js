@@ -32,4 +32,8 @@
 // }
 // console.log(sumMix(arr));
 
-
+// let array =[1,2,3,4,5]
+// function array(i) {
+//     let newarray = array.map((v)=> 0 - v) 
+//      console.log(newarray);
+//   };
