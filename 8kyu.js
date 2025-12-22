@@ -37,3 +37,12 @@
 //     let newarray = array.map((v)=> 0 - v) 
 //      console.log(newarray);
 //   };
+
+// function stringToArray(string){
+  
+//     return string.split(" ")
+   
+//    }
+
+// console.log(stringToArray("Robin Singh"), );
+
