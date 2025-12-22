@@ -46,3 +46,10 @@
 
 // console.log(stringToArray("Robin Singh"), );
 
+// function grow(x){
+//     let sum = 1
+//      x.forEach((v)=>sum = sum * v)
+//   }
+
+//   console.log(grow([1, 2, 3]), 6);
+  
