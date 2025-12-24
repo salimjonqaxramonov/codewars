@@ -53,3 +53,10 @@
 
 //   console.log(grow([1, 2, 3]), 6);
   
+
+
+// let textbooks = (['Algebra', 'History', 'Geometry', 'English'])
+
+// let sorter = (textbooks) => textbooks.sort((a, b) => a.toLowerCase() > b.toLowerCase() ? 1 : -1)
+
+// console.log(textbooks);
