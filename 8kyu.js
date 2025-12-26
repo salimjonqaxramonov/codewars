@@ -54,9 +54,18 @@
 //   console.log(grow([1, 2, 3]), 6);
   
 
-
 // let textbooks = (['Algebra', 'History', 'Geometry', 'English'])
 
 // let sorter = (textbooks) => textbooks.sort((a, b) => a.toLowerCase() > b.toLowerCase() ? 1 : -1)
 
 // console.log(textbooks);
+
+// let arr = [1, -4, 7, 12]
+
+// let sum = 0
+// let newArr = arr.filter((n) => n > 0).map((n) => n+2)
+// console.log(newArr);
+
+// let stringToArray = (string) => string.split(" ")
+// stringToArray = ("I love arrays they are my favorite")
+// console.log( stringToArray );
