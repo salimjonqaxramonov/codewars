@@ -69,3 +69,15 @@
 // let stringToArray = (string) => string.split(" ")
 // stringToArray = ("I love arrays they are my favorite")
 // console.log( stringToArray );
+
+// function squareSum(numbers){
+//     let sum = 0
+//     numbers.forEach ((n) =>{
+//       sum += n ** 2 
+//     } )
+//    return sum
+// }
+    
+
+    
+// console.log(squareSum([1,2]));
