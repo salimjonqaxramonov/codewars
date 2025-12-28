@@ -90,6 +90,14 @@
 
 // console.log([1 -2 -34, 34]);
 
+// function nextItem(xs, item) {
+//     let i = Array.from(xs).indexOf(item);
+//     return (i || i === 0) ? xs[i+1] : undefined;
+//    }
 
+//   console.log(Test.assertEquals(nextItem([1, 2, 3, 4, 5, 6, 7, 8], 5), 6));
+//    console.log(Test.assertEquals(nextItem(['a', 'b', 'c'], 'd'), undefined));
+//    console.log(Test.assertEquals(nextItem(['a', 'b', 'c'], 'c'), undefined));
+//    console.log(Test.assertEquals(nextItem("testing", "t"), "e"));
    
 
