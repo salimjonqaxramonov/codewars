@@ -78,6 +78,18 @@
 //    return sum
 // }
     
-
-    
 // console.log(squareSum([1,2]));
+
+// function typeOfSum(a, b) {
+//     return typeof (a+b)
+//   }
+
+// function opposite(number) {
+//     return(-number);
+//   }
+
+// console.log([1 -2 -34, 34]);
+
+
+   
+
