@@ -101,3 +101,27 @@
 //    console.log(Test.assertEquals(nextItem("testing", "t"), "e"));
    
 
+// function countPositivesSumNegatives(input) {
+//   if (!input || input.length === 0) {
+//     return [];
+//   }
+  
+//   let positiveCount = 0;
+//   let negativeSum = 0;
+
+//   for (let num of input) {
+//     if (num > 0) {
+//       positiveCount++;
+//     } else if (num < 0) {
+//       negativeSum += num;
+//     }
+//   }
+
+//   return [positiveCount, negativeSum];
+// }
+
+// console.log (countPositivesSumNegatives([1,2,3,4,5,6,7,8,9,10,-11,-12,-13,-14,-15]))
+
+let smash = (words)=> words.join(" ")
+
+console.log(smash(["hello", "world"]));
