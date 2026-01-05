@@ -140,3 +140,16 @@
 //       return Math.PI * radius**2
 //     }
 //   }
+
+// friends = ["Ryan", "Kieran", "Jason", "Yous"]
+// let friend = (friends)=> {
+//     return friends.filter((fr) => fr.length === 4) 
+//   }
+
+// let sortList = [
+//     {"a": 1, "b": 3},
+//     {"a": 3, "b": 2},
+//     {"a": 2, "b": 40},
+//     {"a": 4, "b": 12}
+//   ]
+// let sortList = (sortBy, list)=> list.sort((a, b) => b[sortBy] - a[sortBy]);
