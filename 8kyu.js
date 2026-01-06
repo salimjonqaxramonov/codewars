@@ -153,3 +153,8 @@
 //     {"a": 4, "b": 12}
 //   ]
 // let sortList = (sortBy, list)=> list.sort((a, b) => b[sortBy] - a[sortBy]);
+
+// let area =(5,4)
+
+// let area = (d,l)=> d<=l ? "Not a rectangle" : +(Math.sqrt(d**2 - l**2) * l).toFixed(2);
+
