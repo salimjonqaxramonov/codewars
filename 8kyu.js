@@ -158,3 +158,35 @@
 
 // let area = (d,l)=> d<=l ? "Not a rectangle" : +(Math.sqrt(d**2 - l**2) * l).toFixed(2);
 
+
+
+// function arithmetic(a, b, operator){
+//   if (operator === "add"){
+//     return a+b
+//   } else if(operator === "subtract"){
+//     return a-b
+//   }else if(operator ==="multiply"){
+//     return a*b
+//   }else if(operator === "divide"){
+//     return a/b
+//   }
+// }
+
+// arithmetic(5, 2, "add")     
+// arithmetic(5, 2, "subtract")
+// arithmetic(5, 2, "multiply")
+// arithmetic(5, 2, "divide")
+
+// function consecutive(array) {
+//     if (array.length < 2) return 0;
+
+//     array.sort((a, b) => a - b);
+
+//     let missing = 0;
+//     for (let i = 0; i < array.length - 1; i++) {
+//       missing += Math.max(0, array[i + 1] - array[i] - 1);
+//     }
+//     return missing;
+//   }
+
+// consecutive(4, 8, 6)
