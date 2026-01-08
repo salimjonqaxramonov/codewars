@@ -190,3 +190,20 @@
 //   }
 
 // consecutive(4, 8, 6)
+
+// function solution(fullText, search) {
+//     return fullText.split(search).length -1
+//   }
+
+// solution(full_text = "aaabbbcccc")
+
+// let OrderPeople = (people)=>people.sort((a, b)=>a.age - b.age)
+
+// OrderPeople({ age: 46, name: 'roger' },
+//     { age: 99, name: 'vinny' },
+//     { age: 26, name: 'don' },
+//     { age: 74, name: 'brendan' })
+
+// let isSquare =(arr)=> arr.length ? arr.map((n)=>!`${Math.sqrt(n)}`.includes(".")).every((v)=>v)  :  undefined;
+
+// isSquare([1, 4, 9, 16, 25, 36])
