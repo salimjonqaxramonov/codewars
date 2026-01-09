@@ -207,3 +207,145 @@
 // let isSquare =(arr)=> arr.length ? arr.map((n)=>!`${Math.sqrt(n)}`.includes(".")).every((v)=>v)  :  undefined;
 
 // isSquare([1, 4, 9, 16, 25, 36])
+
+// const students = [
+//   { name: "Ali", score: 70, active: true },
+//   { name: "Vali", score: 85, active: false },
+//   { name: "Hasan", score: 90, active: true },
+//   { name: "Husan", score: 60, active: true }
+// ];
+
+// person = students.filter((obj)=>{
+    
+//     if(obj.active === true ) obj.score = obj.score * 0.1 + obj.score
+//      return obj
+// } )
+// let sum = students.reduce((acc, curr)=> acc + curr.score, 0) / students.length
+
+// console.log(+sum.toFixed(2));
+
+// let data = [
+//   { type: "income", amount: 500 },
+//   { type: "expense", amount: 200 },
+//   { type: "income", amount: 1500 },
+//   { type: "expense", amount: 300 },
+//   { type: "income", amount: 700 }
+// ];
+
+// data = data.filter((obj)=>obj.amount>1000)
+
+// console.log(data);
+
+// data = data.findIndex((obj)=>obj.type === "expense")
+
+// console.log(data);
+
+// data = data.findLastIndex((obj)=>obj.type === "income")
+
+// console.log(data);
+
+// =====================================
+
+// 3-misol
+
+// let products = [
+//   { name: "Laptop", price: 1200 },
+//   { name: "Phone", price: 800 },
+//   { name: "Tablet", price: 600 }
+// ];
+
+// products.sort((a, b)=> a.price - b.price) 
+
+// console.log(products);
+
+// ======================================
+
+// 4-misol
+
+// let employees = [
+//   { name: "Ali", verified: true, role: "user" },
+//   { name: "Vali", verified: true, role: "manager" },
+//   { name: "Hasan", verified: true, role: "user" }
+// ];
+
+
+//  employees = employees.filter((obj)=>obj.role === "manager")
+
+// console.log(employees);
+
+// =======================================
+
+// 5-misol
+
+// let sales = [
+//   [120, 300],[450, 100],[600, 200]
+// ];
+
+// sales = sales.flat()
+
+// let newsales = sales.reduce((acc, curr) => acc + curr, 0)
+
+// console.log(newsales);
+
+// =======================================
+
+// 6-misol
+
+// let users = [
+//   { name: "Ali", skills: ["html", "css", "js"] },
+//   { name: "Vali", skills: ["node", "js", "mongo"] },
+//   { name: "Hasan", skills: ["css", "figma"] }
+// ];
+// users = users.filter((skill) => skill.skills.includes("js")); 
+// console.log(users);
+
+//===========================================
+
+// 7-misol
+
+// const orders = [
+//   { product: "Book", price: 10, quantity: 3 },
+//   { product: "Pen", price: 2, quantity: 10 },
+//   { product: "Bag", price: 40, quantity: 1 }
+// ];
+// let sum = orders.reduce((acc , curr)=>acc + curr.price * curr.quantity ,0)
+
+// console.log(sum);
+
+//============================================
+
+//8-misol
+
+// const athletes = [
+//   { name: "Ali", time: 12.5 },
+//   { name: "Vali", time: 11.8 },
+//   { name: "Hasan", time: 12.1 }
+// ];
+// // athletes.sort((a, b)=> a.time - b.time) 
+
+// console.log(athletes);
+
+// 9-misol 
+
+// let data = [5, 10, 15, 20, 25, 30];
+
+// data.fill(0,3)
+
+// let newdata = data.copyWithin(0 , 1 , 4)
+
+// console.log(newdata);
+
+// =============================================
+
+// 10-misol
+
+// let results = [
+//     { name: "Ali", score: 78 },
+//     { name: "Vali", score: 92 },
+//     { name: "Hasan", score: 55 },
+//     { name: "Husan", score: 66 }
+//   ];
+  
+//   results.filter((obj)=>{
+//       if(obj.score > 60)
+//   })
