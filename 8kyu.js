@@ -349,3 +349,12 @@
 //   results.filter((obj)=>{
 //       if(obj.score > 60)
 //   })
+
+// let arrayPlusArray = (arr1, arr2) => [...arr1, ...arr2].reduce((acc, curr) => acc + curr, 0);
+// console.log(arrayPlusArray([1, 2, 3], [4, 5, 6]));
+
+// function findNeedle(haystack) {
+//     let index = haystack.indexOf("needle")
+//      return "found the needle at position " + index
+//    }
+// console.log(findNeedle (["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"]));
