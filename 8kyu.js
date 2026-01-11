@@ -358,3 +358,6 @@
 //      return "found the needle at position " + index
 //    }
 // console.log(findNeedle (["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"]));
+
+// let  removeEveryOther = (arr) =>  arr.filter((value , i) => !( i % 2) && value)
+//   removeEveryOther(["Keep", "Remove", "Keep", "Remove", "Keep"])
