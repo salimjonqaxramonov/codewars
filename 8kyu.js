@@ -14,9 +14,6 @@
   
 //   console.log(sum([1, 5.2, 4, 0, -1]));  
 
-
-
-
 // function printArray(array){
 //   return array.join();
 // }
@@ -299,7 +296,7 @@
 // users = users.filter((skill) => skill.skills.includes("js")); 
 // console.log(users);
 
-//===========================================
+// ===========================================
 
 // 7-misol
 
@@ -312,9 +309,9 @@
 
 // console.log(sum);
 
-//============================================
+// ============================================
 
-//8-misol
+// 8-misol
 
 // const athletes = [
 //   { name: "Ali", time: 12.5 },
@@ -361,3 +358,8 @@
 
 // let  removeEveryOther = (arr) =>  arr.filter((value , i) => !( i % 2) && value)
 //   removeEveryOther(["Keep", "Remove", "Keep", "Remove", "Keep"])
+
+// function mergeArrays(arr1, arr2) {
+//     return [...new Set([...arr1, ...arr2])].sort((a, b) => a - b);
+// //   }
+// console.log(mergeArrays([1, 3, 5], [2, 4, 6]), [1, 2, 3, 4, 5, 6]);
