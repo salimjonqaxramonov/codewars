@@ -363,3 +363,10 @@
 //     return [...new Set([...arr1, ...arr2])].sort((a, b) => a - b);
 // //   }
 // console.log(mergeArrays([1, 3, 5], [2, 4, 6]), [1, 2, 3, 4, 5, 6]);
+
+// let duckDuckGoose = (players, position)=> {
+//     let idx = (position - 1) % players.length;
+//     return players[idx].name;
+//   }
+  
+
