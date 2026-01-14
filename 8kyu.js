@@ -368,5 +368,14 @@
 //     let idx = (position - 1) % players.length;
 //     return players[idx].name;
 //   }
-  
+// let flatten = (arr)=> [].concat(...arr);
+// console.log(flatten([[1,2,3],["a","b","c"],[1,2,3]]));
 
+// let camelize = (str)=>{
+//     if(!str) return "";
+//     str = str.toLowerCase();
+//     for (let s of str) if ((s.charCodeAt() > 57 || s.charCodeAt() < 48) && (s.charCodeAt() < 97 || s.charCodeAt() > 122)) str = str.replace(s, " ");
+//     if(str.includes(" ")) return str.split(" ").map((s)=>`${s[0]||""}`.toUpperCase()+s.slice(1)).join("");
+//     return str[0].toUpperCase()+str.slice(1);
+//   }
+// console.log(camelize("java script"));
