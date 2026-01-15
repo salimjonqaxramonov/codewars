@@ -388,3 +388,5 @@
 //   inArray (["xyz", "live", "strong"] ,  ["lively", "alive", "harp", "sharp", "armstrong"])
 //  console.log(inArray);
  
+// let reverse=a=>a.reverse();
+// console.log(reverse([1, 2, 3]), [3, 2, 1]);
