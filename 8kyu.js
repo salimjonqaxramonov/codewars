@@ -379,3 +379,12 @@
 //     return str[0].toUpperCase()+str.slice(1);
 //   }
 // console.log(camelize("java script"));
+
+// let inArray = (Arr1, Arr2) => {
+//     return Arr1
+//    .filter(word => Arr2.some(str => str.includes(word)))
+//    .sort();
+//   }
+//   inArray (["xyz", "live", "strong"] ,  ["lively", "alive", "harp", "sharp", "armstrong"])
+//  console.log(inArray);
+ 
