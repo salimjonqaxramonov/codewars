@@ -390,3 +390,9 @@
  
 // let reverse=a=>a.reverse();
 // console.log(reverse([1, 2, 3]), [3, 2, 1]);
+
+// items = [{a: "b", c: "d"}]
+
+// let sumArray = (array)=> !array || array.length < 3 ? 0 : array.reduce((acc , curr)=> acc + curr , 0) - Math.min(...array) - Math.max(...array)
+//   console.log(sumArray([ 6, 2, 1, 8, 10 ]));
+  
