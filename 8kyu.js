@@ -396,3 +396,7 @@
 // let sumArray = (array)=> !array || array.length < 3 ? 0 : array.reduce((acc , curr)=> acc + curr , 0) - Math.min(...array) - Math.max(...array)
 //   console.log(sumArray([ 6, 2, 1, 8, 10 ]));
   
+// let stringy = (s)=>Array(s).fill(0).map((v, i)=>(i+1) %2).join("")
+// console.log(stringy);
+
+// let gooseFilter = (arr)=> arr = arr.filter((v)=> !["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"].includes(v))
