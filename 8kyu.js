@@ -400,3 +400,11 @@
 // console.log(stringy);
 
 // let gooseFilter = (arr)=> arr = arr.filter((v)=> !["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"].includes(v))
+
+// let swapValues = (arr) => {
+//     if (arr.length < 2) return arr;
+//     [arr[0], arr[1]] = [arr[1], arr[0]]; 
+//     return arr;
+//   }
+//  console.log(swapValues([0], 2, "Failed swapping numbers"));
+ 
