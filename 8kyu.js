@@ -4,22 +4,21 @@
 
 // function sum (numbers) {
 //     if (numbers.length === 0) return 0;
-    
+
 //      let summa = 0;
 //     for (let i = 0; i < numbers.length; i++) {
 //       summa += numbers[i];
 //     }
 //     return summa
 //   }
-  
-//   console.log(sum([1, 5.2, 4, 0, -1]));  
+
+//   console.log(sum([1, 5.2, 4, 0, -1]));
 
 // function printArray(array){
 //   return array.join();
 // }
 
 // console.log(printArray( [2, 4, 5, 2]));
-
 
 // let arr = ['5', '0', 9, 3, 2, 1, '9', 6, 7]
 
@@ -31,14 +30,14 @@
 
 // let array =[1,2,3,4,5]
 // function array(i) {
-//     let newarray = array.map((v)=> 0 - v) 
+//     let newarray = array.map((v)=> 0 - v)
 //      console.log(newarray);
 //   };
 
 // function stringToArray(string){
-  
+
 //     return string.split(" ")
-   
+
 //    }
 
 // console.log(stringToArray("Robin Singh"), );
@@ -49,7 +48,6 @@
 //   }
 
 //   console.log(grow([1, 2, 3]), 6);
-  
 
 // let textbooks = (['Algebra', 'History', 'Geometry', 'English'])
 
@@ -70,11 +68,11 @@
 // function squareSum(numbers){
 //     let sum = 0
 //     numbers.forEach ((n) =>{
-//       sum += n ** 2 
+//       sum += n ** 2
 //     } )
 //    return sum
 // }
-    
+
 // console.log(squareSum([1,2]));
 
 // function typeOfSum(a, b) {
@@ -96,13 +94,12 @@
 //    console.log(Test.assertEquals(nextItem(['a', 'b', 'c'], 'd'), undefined));
 //    console.log(Test.assertEquals(nextItem(['a', 'b', 'c'], 'c'), undefined));
 //    console.log(Test.assertEquals(nextItem("testing", "t"), "e"));
-   
 
 // function countPositivesSumNegatives(input) {
 //   if (!input || input.length === 0) {
 //     return [];
 //   }
-  
+
 //   let positiveCount = 0;
 //   let negativeSum = 0;
 
@@ -123,13 +120,12 @@
 
 // console.log(smash(["hello", "world"]));
 
-
 // let args_count = (1, 2)
 // function args_count () {
 //     return arguments.length
 //   }
 
-// let circleArea = (1) 
+// let circleArea = (1)
 // function circleArea(radius) {
 //     if(radius < 1){
 //       throw new Error
@@ -140,7 +136,7 @@
 
 // friends = ["Ryan", "Kieran", "Jason", "Yous"]
 // let friend = (friends)=> {
-//     return friends.filter((fr) => fr.length === 4) 
+//     return friends.filter((fr) => fr.length === 4)
 //   }
 
 // let sortList = [
@@ -155,8 +151,6 @@
 
 // let area = (d,l)=> d<=l ? "Not a rectangle" : +(Math.sqrt(d**2 - l**2) * l).toFixed(2);
 
-
-
 // function arithmetic(a, b, operator){
 //   if (operator === "add"){
 //     return a+b
@@ -169,7 +163,7 @@
 //   }
 // }
 
-// arithmetic(5, 2, "add")     
+// arithmetic(5, 2, "add")
 // arithmetic(5, 2, "subtract")
 // arithmetic(5, 2, "multiply")
 // arithmetic(5, 2, "divide")
@@ -213,7 +207,7 @@
 // ];
 
 // person = students.filter((obj)=>{
-    
+
 //     if(obj.active === true ) obj.score = obj.score * 0.1 + obj.score
 //      return obj
 // } )
@@ -251,7 +245,7 @@
 //   { name: "Tablet", price: 600 }
 // ];
 
-// products.sort((a, b)=> a.price - b.price) 
+// products.sort((a, b)=> a.price - b.price)
 
 // console.log(products);
 
@@ -264,7 +258,6 @@
 //   { name: "Vali", verified: true, role: "manager" },
 //   { name: "Hasan", verified: true, role: "user" }
 // ];
-
 
 //  employees = employees.filter((obj)=>obj.role === "manager")
 
@@ -293,7 +286,7 @@
 //   { name: "Vali", skills: ["node", "js", "mongo"] },
 //   { name: "Hasan", skills: ["css", "figma"] }
 // ];
-// users = users.filter((skill) => skill.skills.includes("js")); 
+// users = users.filter((skill) => skill.skills.includes("js"));
 // console.log(users);
 
 // ===========================================
@@ -318,11 +311,11 @@
 //   { name: "Vali", time: 11.8 },
 //   { name: "Hasan", time: 12.1 }
 // ];
-// // athletes.sort((a, b)=> a.time - b.time) 
+// // athletes.sort((a, b)=> a.time - b.time)
 
 // console.log(athletes);
 
-// 9-misol 
+// 9-misol
 
 // let data = [5, 10, 15, 20, 25, 30];
 
@@ -342,7 +335,7 @@
 //     { name: "Hasan", score: 55 },
 //     { name: "Husan", score: 66 }
 //   ];
-  
+
 //   results.filter((obj)=>{
 //       if(obj.score > 60)
 //   })
@@ -387,7 +380,7 @@
 //   }
 //   inArray (["xyz", "live", "strong"] ,  ["lively", "alive", "harp", "sharp", "armstrong"])
 //  console.log(inArray);
- 
+
 // let reverse=a=>a.reverse();
 // console.log(reverse([1, 2, 3]), [3, 2, 1]);
 
@@ -395,7 +388,7 @@
 
 // let sumArray = (array)=> !array || array.length < 3 ? 0 : array.reduce((acc , curr)=> acc + curr , 0) - Math.min(...array) - Math.max(...array)
 //   console.log(sumArray([ 6, 2, 1, 8, 10 ]));
-  
+
 // let stringy = (s)=>Array(s).fill(0).map((v, i)=>(i+1) %2).join("")
 // console.log(stringy);
 
@@ -403,8 +396,20 @@
 
 // let swapValues = (arr) => {
 //     if (arr.length < 2) return arr;
-//     [arr[0], arr[1]] = [arr[1], arr[0]]; 
+//     [arr[0], arr[1]] = [arr[1], arr[0]];
 //     return arr;
 //   }
 //  console.log(swapValues([0], 2, "Failed swapping numbers"));
- 
+
+// let playerManager = (str) => {
+//   if (!str || str.trim() === "") return [];
+//   return str
+//     .split(",")
+//     .map((s) => s.trim())
+//     .reduce((arr, cur, i, a) => {
+//       if (i % 2 === 0 && a[i + 1]) {
+//         arr.push({ player: cur, contact: a[i + 1] });
+//       }
+//       return arr;
+//     }, []);
+// };
