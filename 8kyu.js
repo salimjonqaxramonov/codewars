@@ -413,3 +413,19 @@
 //       return arr;
 //     }, []);
 // };
+
+// const cleanUp=(b,c,g)=>{
+//     if(!Array.isArray(g)) return "Cr@p"; 
+//     let t=0;
+//     for(let i=0;i<g.length;i++){
+//       if(Array.isArray(g[i])){
+//         for(let j=0;j<g[i].length;j++){
+//           if(g[i][j]=="D") return "Dog!!";
+//           if(g[i][j]=="@") t++;
+//         }
+//       }
+//     }
+//     return t<=b*c?"Clean":"Cr@p";
+//   };
+// console.log(cleanUp(2,2, [   ['_','_','@'],    ['@','_','_']  ]) )
+
