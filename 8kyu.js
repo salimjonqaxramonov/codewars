@@ -411,7 +411,7 @@
 //         arr.push({ player: cur, contact: a[i + 1] });
 //       }
 //       return arr;
-//     }, []);
+//     }, []
 // };
 
 // const cleanUp=(b,c,g)=>{
