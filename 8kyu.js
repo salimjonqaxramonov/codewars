@@ -415,7 +415,7 @@
 // };
 
 // const cleanUp=(b,c,g)=>{
-//     if(!Array.isArray(g)) return "Cr@p"; 
+//     if(!Array.isArray(g)) return "Cr@p";
 //     let t=0;
 //     for(let i=0;i<g.length;i++){
 //       if(Array.isArray(g[i])){
@@ -439,3 +439,15 @@
 //   return sum;
 // }
 // console.log(positiveSum([1,2,3,4,5]));
+
+// function type(v) {
+//   if (Array.isArray(v)) return "array";
+//   if (v instanceof Date) return "date";
+//   return typeof v;
+// }
+// console.log(
+//   type([]) == "array",
+//   type({}) == "object",
+//   type("") == "string",
+//   type(NaN) == "number"
+// );
