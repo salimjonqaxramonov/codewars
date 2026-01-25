@@ -451,3 +451,6 @@
 //   type("") == "string",
 //   type(NaN) == "number"
 // );
+
+// let findMissingNumbers =(a , r=[])=>{ for(i=a[0];i<a.at(-1);i++)!a.includes(i)&&r.push(i);return r}
+//  console.log(findMissingNumbers([-3,-2,1,4]));
