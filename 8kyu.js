@@ -454,3 +454,46 @@
 
 // let findMissingNumbers =(a , r=[])=>{ for(i=a[0];i<a.at(-1);i++)!a.includes(i)&&r.push(i);return r}
 //  console.log(findMissingNumbers([-3,-2,1,4]));
+
+// let str = "Men Algoritm IT markazida tahsil olaman";
+// let v = "aeiouAEIOU";
+// let first = str.split("").findIndex(ch => v.includes(ch));
+// let last = str.split("").reverse().findIndex(ch => /[A-Za-z]/.test(ch) && !v.includes(ch));
+// console.log((str.length - 1 - last) - first);
+
+// let str = "A1g0r1t9m8";
+// let nums = "", lets = "";
+// for (let ch of str) {
+//   if (/\d/.test(ch)) nums += ch;
+//   else lets += ch;
+// }
+// console.log(nums + lets);
+
+// let str = "men algoritm markazida o‘qiyman";
+// let mid = Math.floor(str.length / 2);
+// console.log(str.slice(0, mid) + str[mid].toUpperCase() + str.slice(mid + 1));
+
+// let str = "Algoritm IT Markazi";
+// let data = "";
+// for (let ch of str) {
+//   data += (ch === ch.toUpperCase() ? ch.toLowerCase() : ch.toUpperCase());
+// }
+// console.log(data);
+
+// let str = "a3b2c1d4";
+// let out = "";
+// for (let i = 0; i < str.length; i += 2) {
+//   out += str[i].repeat(+str[i+1]);
+// }
+// console.log(out);
+    
+
+// function findLongest(arr) {
+//     let best = arr[0];
+//     for (let num of arr) {
+//       if (String(num).length > String(best).length) best = num;
+//     }
+//     return best;
+//   }
+// console.log(findLongest([1, 10, 100]));
+
