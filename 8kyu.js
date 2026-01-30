@@ -497,3 +497,11 @@
 //   }
 // console.log(findLongest([1, 10, 100]));
 
+// let wordsToSentence = (s)=>s.join(" ")
+// console.log(wordsToSentence(["hello", "world"]));
+
+// let powerOf4 = (n)=>Number.isInteger(n) && n>0 && (Math.log(n) / Math.log(4) % 1 === 0)
+// console.log(powerOf4(44));
+
+// let locate = (arr, value)=> arr.flat(Infinity).includes(value)
+// console.log(locat['a','b',['c','d',['e']]]);
