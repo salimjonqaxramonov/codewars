@@ -505,3 +505,6 @@
 
 // let locate = (arr, value)=> arr.flat(Infinity).includes(value)
 // console.log(locat['a','b',['c','d',['e']]]);
+
+// let stray = (n) => n.reduce((a,b) => a^b)
+// console.log(stray([1, 1, 2]));
