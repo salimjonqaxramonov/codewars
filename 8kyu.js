@@ -486,7 +486,6 @@
 //   out += str[i].repeat(+str[i+1]);
 // }
 // console.log(out);
-    
 
 // function findLongest(arr) {
 //     let best = arr[0];
@@ -508,3 +507,10 @@
 
 // let stray = (n) => n.reduce((a,b) => a^b)
 // console.log(stray([1, 1, 2]));
+
+let array = [20, 21, 22, 23, 24, 25, 26 ,27, 28, 29, 30  ]
+let sum = 0
+ for (let index = 0; index < 1; index++) {
+     sum +=index
+}
+console.log(sum);
