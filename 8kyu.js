@@ -1,6 +1,12 @@
+// 1-misol
+
 // let maps = (x) => x.map((n)=>n*2)
 
 // console.log(maps([1, 2, 3]));
+
+//=========================
+
+// 2-misol
 
 // function sum (numbers) {
 //     if (numbers.length === 0) return 0;
@@ -14,11 +20,19 @@
 
 //   console.log(sum([1, 5.2, 4, 0, -1]));
 
+//============================
+
+// 3-misol
+
 // function printArray(array){
 //   return array.join();
 // }
 
 // console.log(printArray( [2, 4, 5, 2]));
+
+//======================================
+
+// 4-misol
 
 // let arr = ['5', '0', 9, 3, 2, 1, '9', 6, 7]
 
@@ -27,6 +41,10 @@
 //     return sum;
 // }
 // console.log(sumMix(arr));
+
+//===================================
+
+// 5-misol
 
 // let array =[1,2,3,4,5]
 // function array(i) {
@@ -42,6 +60,10 @@
 
 // console.log(stringToArray("Robin Singh"), );
 
+//=======================================
+
+// 6-misol
+
 // function grow(x){
 //     let sum = 1
 //      x.forEach((v)=>sum = sum * v)
@@ -49,11 +71,19 @@
 
 //   console.log(grow([1, 2, 3]), 6);
 
+//=============================================
+
+// 7-misol
+
 // let textbooks = (['Algebra', 'History', 'Geometry', 'English'])
 
 // let sorter = (textbooks) => textbooks.sort((a, b) => a.toLowerCase() > b.toLowerCase() ? 1 : -1)
 
 // console.log(textbooks);
+
+//=====================================
+
+// 8-misol
 
 // let arr = [1, -4, 7, 12]
 
@@ -61,9 +91,17 @@
 // let newArr = arr.filter((n) => n > 0).map((n) => n+2)
 // console.log(newArr);
 
+//====================================
+
+// 9-misol
+
 // let stringToArray = (string) => string.split(" ")
 // stringToArray = ("I love arrays they are my favorite")
 // console.log( stringToArray );
+
+//======================================
+
+// 10-misol
 
 // function squareSum(numbers){
 //     let sum = 0
@@ -75,6 +113,10 @@
 
 // console.log(squareSum([1,2]));
 
+//===================================
+
+// 11-misol
+
 // function typeOfSum(a, b) {
 //     return typeof (a+b)
 //   }
@@ -85,6 +127,10 @@
 
 // console.log([1 -2 -34, 34]);
 
+//============================
+
+// 12-misol
+
 // function nextItem(xs, item) {
 //     let i = Array.from(xs).indexOf(item);
 //     return (i || i === 0) ? xs[i+1] : undefined;
@@ -94,6 +140,10 @@
 //    console.log(Test.assertEquals(nextItem(['a', 'b', 'c'], 'd'), undefined));
 //    console.log(Test.assertEquals(nextItem(['a', 'b', 'c'], 'c'), undefined));
 //    console.log(Test.assertEquals(nextItem("testing", "t"), "e"));
+
+//======================================
+
+// 13-misol
 
 // function countPositivesSumNegatives(input) {
 //   if (!input || input.length === 0) {
@@ -116,14 +166,26 @@
 
 // console.log (countPositivesSumNegatives([1,2,3,4,5,6,7,8,9,10,-11,-12,-13,-14,-15]))
 
+//=====================================
+
+// 14-misol
+
 // let smash = (words)=> words.join(" ")
 
 // console.log(smash(["hello", "world"]));
+
+//====================================
+
+// 15-misol
 
 // let args_count = (1, 2)
 // function args_count () {
 //     return arguments.length
 //   }
+
+//=====================
+
+// 16-misol
 
 // let circleArea = (1)
 // function circleArea(radius) {
@@ -133,6 +195,10 @@
 //       return Math.PI * radius**2
 //     }
 //   }
+
+//=============================
+
+// 17-misol
 
 // friends = ["Ryan", "Kieran", "Jason", "Yous"]
 // let friend = (friends)=> {
@@ -147,9 +213,16 @@
 //   ]
 // let sortList = (sortBy, list)=> list.sort((a, b) => b[sortBy] - a[sortBy]);
 
+//====================================
+// 18-misol
+
 // let area =(5,4)
 
 // let area = (d,l)=> d<=l ? "Not a rectangle" : +(Math.sqrt(d**2 - l**2) * l).toFixed(2);
+
+//===============================
+
+// 19-misol
 
 // function arithmetic(a, b, operator){
 //   if (operator === "add"){
@@ -168,6 +241,10 @@
 // arithmetic(5, 2, "multiply")
 // arithmetic(5, 2, "divide")
 
+//==============================
+
+// 20-misol
+
 // function consecutive(array) {
 //     if (array.length < 2) return 0;
 
@@ -182,11 +259,19 @@
 
 // consecutive(4, 8, 6)
 
+//==============================
+
+// 21-misol
+
 // function solution(fullText, search) {
 //     return fullText.split(search).length -1
 //   }
 
 // solution(full_text = "aaabbbcccc")
+
+//===============================
+
+// 22-misol
 
 // let OrderPeople = (people)=>people.sort((a, b)=>a.age - b.age)
 
@@ -198,6 +283,10 @@
 // let isSquare =(arr)=> arr.length ? arr.map((n)=>!`${Math.sqrt(n)}`.includes(".")).every((v)=>v)  :  undefined;
 
 // isSquare([1, 4, 9, 16, 25, 36])
+
+//==================================
+
+// 23-misol
 
 // const students = [
 //   { name: "Ali", score: 70, active: true },
@@ -215,6 +304,9 @@
 
 // console.log(+sum.toFixed(2));
 
+//===============================
+// 24-misol
+
 // let data = [
 //   { type: "income", amount: 500 },
 //   { type: "expense", amount: 200 },
@@ -227,9 +319,15 @@
 
 // console.log(data);
 
+//===================================
+// 25-misol
+
 // data = data.findIndex((obj)=>obj.type === "expense")
 
 // console.log(data);
+
+//=====================================
+// 26-misol
 
 // data = data.findLastIndex((obj)=>obj.type === "income")
 
@@ -237,7 +335,7 @@
 
 // =====================================
 
-// 3-misol
+// 27-misol
 
 // let products = [
 //   { name: "Laptop", price: 1200 },
@@ -251,7 +349,7 @@
 
 // ======================================
 
-// 4-misol
+// 28-misol
 
 // let employees = [
 //   { name: "Ali", verified: true, role: "user" },
@@ -265,7 +363,7 @@
 
 // =======================================
 
-// 5-misol
+// 29-misol
 
 // let sales = [
 //   [120, 300],[450, 100],[600, 200]
@@ -279,7 +377,7 @@
 
 // =======================================
 
-// 6-misol
+// 30-misol
 
 // let users = [
 //   { name: "Ali", skills: ["html", "css", "js"] },
@@ -291,7 +389,7 @@
 
 // ===========================================
 
-// 7-misol
+// 31-misol
 
 // const orders = [
 //   { product: "Book", price: 10, quantity: 3 },
@@ -304,7 +402,7 @@
 
 // ============================================
 
-// 8-misol
+// 32-misol
 
 // const athletes = [
 //   { name: "Ali", time: 12.5 },
@@ -315,7 +413,7 @@
 
 // console.log(athletes);
 
-// 9-misol
+// 33-misol
 
 // let data = [5, 10, 15, 20, 25, 30];
 
@@ -327,7 +425,7 @@
 
 // =============================================
 
-// 10-misol
+// 34-misol
 
 // let results = [
 //     { name: "Ali", score: 78 },
@@ -349,13 +447,24 @@
 //    }
 // console.log(findNeedle (["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"]));
 
+//====================================
+
+// 35-misol
+
 // let  removeEveryOther = (arr) =>  arr.filter((value , i) => !( i % 2) && value)
 //   removeEveryOther(["Keep", "Remove", "Keep", "Remove", "Keep"])
+
+//===========================
+// 36-misol
 
 // function mergeArrays(arr1, arr2) {
 //     return [...new Set([...arr1, ...arr2])].sort((a, b) => a - b);
 // //   }
 // console.log(mergeArrays([1, 3, 5], [2, 4, 6]), [1, 2, 3, 4, 5, 6]);
+
+//=============================
+
+// 37-misol
 
 // let duckDuckGoose = (players, position)=> {
 //     let idx = (position - 1) % players.length;
@@ -363,6 +472,10 @@
 //   }
 // let flatten = (arr)=> [].concat(...arr);
 // console.log(flatten([[1,2,3],["a","b","c"],[1,2,3]]));
+
+//===================================
+
+// 38-misol
 
 // let camelize = (str)=>{
 //     if(!str) return "";
@@ -373,6 +486,10 @@
 //   }
 // console.log(camelize("java script"));
 
+//=================================
+
+// 39-misol
+
 // let inArray = (Arr1, Arr2) => {
 //     return Arr1
 //    .filter(word => Arr2.some(str => str.includes(word)))
@@ -381,16 +498,32 @@
 //   inArray (["xyz", "live", "strong"] ,  ["lively", "alive", "harp", "sharp", "armstrong"])
 //  console.log(inArray);
 
+//====================================
+
+// 40-misol
+
 // let reverse=a=>a.reverse();
 // console.log(reverse([1, 2, 3]), [3, 2, 1]);
+
+//========================
+
+// 41-misol
 
 // items = [{a: "b", c: "d"}]
 
 // let sumArray = (array)=> !array || array.length < 3 ? 0 : array.reduce((acc , curr)=> acc + curr , 0) - Math.min(...array) - Math.max(...array)
 //   console.log(sumArray([ 6, 2, 1, 8, 10 ]));
 
+//============================
+
+// 42-misol
+
 // let stringy = (s)=>Array(s).fill(0).map((v, i)=>(i+1) %2).join("")
 // console.log(stringy);
+
+//=============================
+
+// 43-misol
 
 // let gooseFilter = (arr)=> arr = arr.filter((v)=> !["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"].includes(v))
 
@@ -400,6 +533,10 @@
 //     return arr;
 //   }
 //  console.log(swapValues([0], 2, "Failed swapping numbers"));
+
+//===================================
+
+// 44-misol
 
 // let playerManager = (str) => {
 //   if (!str || str.trim() === "") return [];
@@ -413,6 +550,10 @@
 //       return arr;
 //     }, []
 // };
+
+//============================
+
+// 45-misol
 
 // const cleanUp=(b,c,g)=>{
 //     if(!Array.isArray(g)) return "Cr@p";
@@ -429,6 +570,10 @@
 //   };
 // console.log(cleanUp(2,2, [   ['_','_','@'],    ['@','_','_']  ]) )
 
+//===================================
+
+// 46-misol
+
 // function positiveSum(arr) {
 //   let sum = 0;
 //   for (let i = 0; i < arr.length; i++) {
@@ -439,6 +584,10 @@
 //   return sum;
 // }
 // console.log(positiveSum([1,2,3,4,5]));
+
+//==========================
+
+// 47-misol
 
 // function type(v) {
 //   if (Array.isArray(v)) return "array";
@@ -452,14 +601,26 @@
 //   type(NaN) == "number"
 // );
 
+// ==================================
+
+// 48-misol
+
 // let findMissingNumbers =(a , r=[])=>{ for(i=a[0];i<a.at(-1);i++)!a.includes(i)&&r.push(i);return r}
 //  console.log(findMissingNumbers([-3,-2,1,4]));
+
+//===============================
+
+// 49-misol
 
 // let str = "Men Algoritm IT markazida tahsil olaman";
 // let v = "aeiouAEIOU";
 // let first = str.split("").findIndex(ch => v.includes(ch));
 // let last = str.split("").reverse().findIndex(ch => /[A-Za-z]/.test(ch) && !v.includes(ch));
 // console.log((str.length - 1 - last) - first);
+
+//===============================
+
+// 50-misol
 
 // let str = "A1g0r1t9m8";
 // let nums = "", lets = "";
@@ -469,9 +630,17 @@
 // }
 // console.log(nums + lets);
 
+//==================================
+
+// 51-misol
+
 // let str = "men algoritm markazida o‘qiyman";
 // let mid = Math.floor(str.length / 2);
 // console.log(str.slice(0, mid) + str[mid].toUpperCase() + str.slice(mid + 1));
+
+//==================================
+
+// 52-misol
 
 // let str = "Algoritm IT Markazi";
 // let data = "";
@@ -480,12 +649,20 @@
 // }
 // console.log(data);
 
+//=================================
+
+// 53-misol
+
 // let str = "a3b2c1d4";
 // let out = "";
 // for (let i = 0; i < str.length; i += 2) {
 //   out += str[i].repeat(+str[i+1]);
 // }
 // console.log(out);
+
+//===============================
+
+// 54-misol
 
 // function findLongest(arr) {
 //     let best = arr[0];
@@ -496,21 +673,45 @@
 //   }
 // console.log(findLongest([1, 10, 100]));
 
+//=====================================
+
+// 55-misol
+
 // let wordsToSentence = (s)=>s.join(" ")
 // console.log(wordsToSentence(["hello", "world"]));
+
+//=====================================
+
+// 56-misol
 
 // let powerOf4 = (n)=>Number.isInteger(n) && n>0 && (Math.log(n) / Math.log(4) % 1 === 0)
 // console.log(powerOf4(44));
 
+//=======================================
+
+// 57-misol
+
 // let locate = (arr, value)=> arr.flat(Infinity).includes(value)
 // console.log(locat['a','b',['c','d',['e']]]);
+
+//===================================
+
+// 58-misol
 
 // let stray = (n) => n.reduce((a,b) => a^b)
 // console.log(stray([1, 1, 2]));
 
-let array = [20, 21, 22, 23, 24, 25, 26 ,27, 28, 29, 30  ]
-let sum = 0
- for (let index = 0; index < 1; index++) {
-     sum +=index
-}
-console.log(sum);
+//=================================
+
+// 59-misol
+
+// let array = [20, 21, 22, 23, 24, 25, 26 ,27, 28, 29, 30  ]
+// let sum = 0
+//  for (let index = 0; index < 1; index++) {
+//      sum +=index
+// }
+// console.log(sum);
+
+//======================================
+
+// 60-misol 

@@ -1,3 +1,4 @@
+// 1-misol
 // function leastLarger(arr, index) {
 //   const target = arr[index];
 //   let minLargerValue = Infinity;
@@ -14,6 +15,10 @@
 // }
 
 // console.log(leastLarger([4, 1, 3, 5, 6], 0)); // 3
+
+// ============================================
+
+// 2-misol
 
 // function stalinSort(arr) {
 //   if (arr.length === 0) return;
@@ -32,3 +37,7 @@
 // }
 
 // console.log(stalinSort([2,3,4]));
+
+// ==================================================
+
+// 3-misol
